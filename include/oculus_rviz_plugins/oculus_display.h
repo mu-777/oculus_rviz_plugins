@@ -109,7 +109,8 @@ private:
   rviz::BoolProperty *follow_cam_property_;
   rviz::BoolProperty *horizontal_property_;
   rviz::TfFrameProperty *tf_frame_property_;
-  rviz::VectorProperty *offset_property_;
+  rviz::VectorProperty *pos_offset_property_;
+  rviz::VectorProperty *ori_offset_property_;
 
   rviz::FloatProperty *near_clip_property_;
 
